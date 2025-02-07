@@ -8,7 +8,6 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonial from "./Testimonial";
 import Hero from "./Hero";
-import GetStarted from "./GetStarted";
 import FeedbackCard from "./FeedbackCard";
 
 export {
@@ -22,6 +21,5 @@ export {
   Footer,
   Testimonial,
   Hero,
-  GetStarted,
   FeedbackCard,
 };

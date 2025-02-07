@@ -44,7 +44,9 @@ const Hero = () => {
           annual fees.
         </p>
       </div>
-      <div>
+      <div
+        className={` flex flex-1 ${styles.flexCenter} md:my-0 my-10 relative `}
+      >
         <img
           src={robot}
           alt="robot"
@@ -53,6 +55,9 @@ const Hero = () => {
         <div className="pink__gradient absolute z-[0] top-0 h-[35%] w-[40%]"></div>
         <div className="white__gradient absolute z-[1] h-[80%] w-[80%] rounded-full bottom-40"></div>
         <div className="blue__gradient absolute z-[0] h-[50%] w-[50%] right-20 bottom-20"></div>
+      </div>
+      <div className={`ss:hidden ${styles.flexCenter} `}>
+        <GetStarted />
       </div>
     </section>
   );
